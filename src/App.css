@@ -1,0 +1,73 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  width: 57vh;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 0px;
+}
+
+.movieTitle {
+  font-weight: 700;
+}
+
+p {
+  line-height: 4vh;
+}
+
+.imgContainer {
+  width: 30vh;
+  margin: 0;
+  padding: 0;
+}
+
+.centerImageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  align-self: center;
+}
+
+.iconC {
+  display: flex;
+  justify-content: center;
+}
+
+.imageIcon {
+  font-size: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+.movieTitle {
+  text-align: center;
+}
+
+.movieTitleContainer {
+  height: 130px;
+}
+
+.genreContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.genreBox {
+  background-color: #FF8000;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
